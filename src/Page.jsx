@@ -52,7 +52,7 @@ export default function Page() {
         </div>
       ) : (
         <div
-          className="grid place-items-center h-screen bg-no-repeat bg-cover"
+          className="grid container place-items-center h-screen bg-no-repeat bg-cover w-auto"
           style={{ backgroundImage: `url('${climateImage}')` }}>
           <Header />
           <main>

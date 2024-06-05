@@ -1,7 +1,7 @@
 import HeartImg from "../../assets/heart.svg";
 export default function Favourite({ onShow }) {
   return (
-    <div className="p-2 hover:bg-black/30 cursor-pointer flex gap-2 items-center rounded-md transition-all">
+    <div className="sm:p-0  md:p-2 hover:bg-black/30 cursor-pointer flex gap-2 align-items: flex-end; rounded-md transition-all">
       <img
         src={HeartImg}
         alt=""

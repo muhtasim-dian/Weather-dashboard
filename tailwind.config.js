@@ -5,7 +5,6 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: "5rem",
       },
       colors: {
         body: "#1D1E28",

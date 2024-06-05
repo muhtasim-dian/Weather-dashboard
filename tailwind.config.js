@@ -6,6 +6,7 @@ export default {
       container: {
         center: true,
       },
+
       colors: {
         body: "#1D1E28",
         light: "#fff",
